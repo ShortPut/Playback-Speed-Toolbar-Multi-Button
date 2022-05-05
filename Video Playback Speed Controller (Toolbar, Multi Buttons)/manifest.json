@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Video Speed Controller (Toolbar MultiButtons)",
+    "version": "1.0",
+    "description": "Adds buttons in the tool bar to change playback speed for HTML video tagged videos.",
+    "icons": {
+        "48": "icons/playback-icon-48.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://*/*",
+        "http://*/*"
+    ],
+    "browser_action": {
+        "default_icon": "icons/playback-icon-32.png",
+        "default_title": "Change Video Speed",
+        "default_popup": "speed-buttons.html"
+    }
+}
